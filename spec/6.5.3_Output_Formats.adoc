@@ -1,0 +1,3 @@
+=== 6.5.3.    Output Formats
+
+The response to a Web Map Service request is always a computer file. The file may contain text, or the file may represent a map image depending on the operation. For the particular operations a DGIWG WMS server shall support the following output formats.
