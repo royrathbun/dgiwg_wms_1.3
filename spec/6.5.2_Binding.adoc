@@ -1,0 +1,6 @@
+=== 6.5.2.    Binding
+
+The OGC WMS 1.3.0 standard requires support for HTTP Get. Support for HTTP Post is optional. A SOAP binding is not defined in the standard.
+
+::
+*_Requirement 2: A DGIWG WMS server shall support HTTP GET._*
