@@ -1,0 +1,10 @@
+= 4.1  Normative references
+
+[cols=",,,",]
+|========================================================================================================
+|*ID* |*Title* |*Reference* |*Version*
+|[1] |OGC Web Map Service Implementation Specification 1.3.0, 2006 (same as ISO 19128) |OGC 06-042 |1.3.0
+|[2] |Best Practices for using OGC WMS with Time-Dependent or Elevation-Dependent Data |12-111r1 |1.0
+|[3] |DGIWG Metadata Foundation |DGIWG – 114 |1.10 (7-2014)
+|[4] |DGIWG Feature Data Dictionary, Baseline |2013-1.00 |2013-1.00
+|========================================================================================================
