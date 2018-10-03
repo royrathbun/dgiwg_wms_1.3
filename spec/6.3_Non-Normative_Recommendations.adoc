@@ -1,0 +1,40 @@
+= 6.3      Non-Normative Recommendations for Implementation
+
+The non-normative requirements requested by this profile are summarized
+in Table 2
+
+ 
+
+[width="100%",cols="34%,33%,33%",]
+|=======================================================================
+|*No.* |*Recommendation* |*Compliance*
+|1 |If a service requires vector based graphical elements output, a
+DGIWG WMS server should provide image/svg+xml (Scalable Vector Graphics)
+for the GetMap operation. |O
+
+|2 |It is recommended to also provide legends for raster layers
+representing numeric data like for instance elevation or temperature
+data |O
+
+|3 |A DGIWG WMS service should be configured to serve requests that
+range from at least 4x to at least 0.25x the native scale(s) or
+resolution(s) of the underlying datasets". |O
+
+|4 |In an SDI like architecture, a DGIWG WMS server should provide a
+link to the metadata resource via a resolvable URL for example to a CSW
+server. |O
+
+|5 |Vector layers returned by a WMS server should be queryable |O
+
+|6 |For a 470 Kilobytes image, the response time for sending the initial
+response to a Get Map Request to a view service shall be maximum 5
+seconds in normal situation. |O
+
+|7 |The number of simultaneous service requests that a DGIWG WMS server
+should be able to support is at least 20 per second. |O
+
+|8 |A DGIWG WMS server should be available 99.9% of the time. |O
+|=======================================================================
+
+[[_Toc435456076]][[_Ref399233142]]Table 2: DGIWG WMS Profile
+Non-normative Recommendations for Server Implementation
