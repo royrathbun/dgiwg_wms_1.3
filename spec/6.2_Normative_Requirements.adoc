@@ -1,4 +1,4 @@
-= 6.2.  Normative Requirements
+== 6.2.  Normative Requirements
 
 The Normative requirements requested by this profile are summarized in Table 1
 
