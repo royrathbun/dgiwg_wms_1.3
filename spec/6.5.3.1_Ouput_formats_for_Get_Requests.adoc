@@ -1,0 +1,12 @@
+==== 6.5.3.1.  Output formats for GetCapabilities and GetFeatureInfo requests
+
+The response to a GetCapabilities or GetFeatureInfo request is always a text file.
+
+::
+*_Requirement 3: A DGIWG WMS server shall support text/xml and text/html as output formats for the GetCapabilities and the GetFeatureInfo Operations._*  +
+::
+*_Requirement 4: A DGIWG WMS server shall provide metadata content in a response to a "GetCapabilities" or “GetFeatureInfo” request in English language._*
+
+**NOTE**: Services can also be provided using alternative languages to
+English: This profile does not specify the details for implementation of
+multilingual services.
