@@ -1,0 +1,56 @@
+= 5.2  Abbreviations
+
+[cols=","]
+|======================================================
+|*BBox* |Bounding Box
+|*CRS* |Coordinate Reference System
+|*CS* |Coordinate System
+|*CSW* |Catalogue Service for the Web
+|*DGIWG* |Defence Geospatial Information Working Group
+|*DFDD* |DGIWG Feature Data Dictionary
+|*DMF* |DGIWG Metadata Framework
+|*EPSG* |European Petroleum Survey Group
+|*FES* |Filter Encoding Specification
+|*FGDC* |Federal Geographic Data Committee
+|*GI* |Georeferenced Information
+|*GIF* |Graphics Interchange Format
+|*GeoInf* |Geospatial Information
+|*GeoInt* |Geospatial Intelligence
+|*GML* |Geography Markup Language
+|*GZIP* |GNU Zip File format
+|*HTTP* |Hypertext Transfer Protocol
+|*IETF* |Internet Engineering Task Force
+|*ISO* |International Organization for Standardization
+|*ISO/DIS* |ISO Draft International Standard
+|*JPEG* |Joint Photographics Expert Group
+|*JSON* |JavaScript Object Notation
+|*KVP* |Keyword Value Pairs
+|*LAN* |Local Area Network
+|*MIME* |Multipurpose Internet Mail Extension
+|*NATO* |North Atlantic Treaty Organization
+|*NGIF* |NATO Geospatial Information Framework
+|*NSG* |National System for Geospatial-Intelligence
+|*OGC* |Open Geospatial Consortium
+|*OWS* |OGC Web Service
+|*PNG* |Portable Network Graphics
+|*SDI* |Spatial Data Infrastructure
+|*SOAP* |Simple Object Access Protocol
+|*SQL* |Structured Query Language
+|*SVG* |Scalable Vector Graphics
+|*UML* |Unified Modelling Language
+|*UPS* |Universal polar stereographic coordinate system
+|*URI* |Uniform Resource Identifier
+|*URL* |Uniform Resource Locator
+|*URN* |Uniform Resource Name
+|*UTM* |Universal Transverse Mercator
+|*VSP* |Vendor Specific Parameter
+|*WFS* |Web Feature Service
+|*WMS* |Web Map Service
+|*WMTS* |Web Map Tile Service
+|*WAN* |Wide Area Network
+|*WFS* |Web Feature Service
+|*WSDL* |Web Services Description Language
+|*XML* |Extensible Markup Language
+|*XPath* |XML Path Language
+|*XQuery* |XML Query
+|======================================================
