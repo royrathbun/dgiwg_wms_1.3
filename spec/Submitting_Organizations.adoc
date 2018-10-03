@@ -1,0 +1,12 @@
+= i. Submitting organizations
+
+For the Defence Geospatial Information Working Group (DGIWG):
+
+[cols=",",]
+|================================================================
+|*Nation* |*Parent organization*
+|Germany |Bundeswehr Geoinformation Centre (BGIC)
+|France |Institut Géographique National (IGN)
+|United States |National Geospatial-Intelligence Agency (NGA)
+|United Kingdom |Defence Science and Technology Laboratory (DSTL)
+|================================================================
