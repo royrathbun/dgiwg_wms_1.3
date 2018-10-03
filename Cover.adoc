@@ -1,0 +1,17 @@
+image:/media/image1.png[image,width=247,height=235]
+
+DGIWG – 112
+
+DGIWG – Web Map Service 1.3 Profile – Revision
+
+*Document type: FINAL DRAFT* Standard
+
+*Document date:* 16 November 2015
+
+*Edition number: DGIWG 14-013r2 / OGC 09-102r2*
+
+*Responsible Party:* DGIWG
+
+*Audience:* DGIWG participants and liaisons
+
+*Abstract:* This document defines specific DGIWG requirements, recommendations and guidelines for implementations of the ISO and OGC Web Map Service standards; ISO 19128:2005 Web Map Server Interface and the OpenGIS Web Map Server Implementation Specification 1.3.0.
