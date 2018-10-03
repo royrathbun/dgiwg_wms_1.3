@@ -1,0 +1,3 @@
+= iv.  Future work
+
+A revision of WMS 1.3 is currently undertaken at the OGC. The revision will produce a version 1.4. WMS standard. This DGIWG WMS profile will be updated accordingly. Currently the WMS 2.0 Standards Working Group is working off several Change Requests including support for JavaScript Object Notation (JSON) encoded GetFeatureInfo responses. This profile will be updated to the new base standard version as requirements dictate.
