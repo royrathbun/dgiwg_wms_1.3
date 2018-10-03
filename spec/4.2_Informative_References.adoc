@@ -1,0 +1,16 @@
+= 4.2  Informative References
+
+[cols=",,",]
+|=================================================================================================================================================================================================
+|*Title* |*Reference* |*Version*
+|DGIWG WMS 1.3 Profile and Systems Requirements for Interoperability for Use within a Military Environment, STD-08-054-ED1.3, 2008. |OGC 09-102 |0.9
+|National System for Geospatial-Intelligence (NSG) OGC Web Map Service 1.3 Interoperability Standard, 22 May 2013 |NGA.STND.0038_1.0.1_NSG_WMS_1 3 0 _Interoperability_Standard |1.0.1
+|GBR Web Map Service Draft Implementation Profile for WMS 1.3.0, 2012 | |1.0
+|DEU Web Map Service Draft Implementation Profile for WMS 1.3.0 | |1.0
+|UK MOD CGTS Phase 2 Research Project - Core Profile and Best Practice Guide for Use of OpenGIS Web Map Service Version 1.3.0 in support of Military Operations, 2011. |600\10012459\SPC\63\1 |1.0
+|OGC NSG Plugweek Engineering Report, 2010 |OGC 09-140r2 |
+|OGC TESTBED 10 CCI Profile Interoperability Engineering Report |OGC 14-021r2 |3.0
+|OpenGIS Wrapping OGC HTTP-GET and -POST Services with SOAP - Discussion Paper; dated: 2008-01-24 |OGC 07-158 |
+|=================================================================================================================================================================================================
+
+*NOTE:* Implementers of the DGIWG WMS 1.3 Profile should verify all Reference documents for latest edition against the holdings found under http://www.dgiwg.org/dgiwg/htm/documents/documents.htm, Open Geospatial Consortium (OGC) documents are located at: http://www.opengeospatial.org/standards and https://nsgreg.nga.mil/index.jsp
