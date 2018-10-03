@@ -1,4 +1,4 @@
-= 6.4.      Service Type
+== 6.4.      Service Type
 
 The OGC WMS Implementation Specification defines two conformance
 classes, “Basic WMS” and “Queryable WMS”. A Basic WMS supports the
