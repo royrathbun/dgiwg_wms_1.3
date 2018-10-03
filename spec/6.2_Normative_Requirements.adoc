@@ -1,0 +1,337 @@
+= 6.2.  Normative Requirements
+
+The Normative requirements requested by this profile are summarized in Table 1
+
+[cols=",,",options="header",]
+|=========================================================================================================================================================================================================
+|*No.* |*Requirement* |*Compliance*
+|1 |A DGIWG WMS server shall be compliant to the Queryable WMS conformance class. |M
+|2|A DGIWG WMS server shall support HTTP GET.|M
+|3|A DGIWG WMS server shall support text/xml and text/html as output formats for the GetCapabilities and the GetFeatureInfo Operations.|M
+|4| A DGIWG WMS server shall provide metadata content in a response to a "GetCapabilities" or “GetFeatureInfo” request in English language.|M
+|5 
+a|.A DGIWG WMS server shall support the following raster formats for the GetMap operation:
+* image/png (Portable Network Graphics)
+* image/gif (Graphics Interchange Format)
+* image/jpeg (Joint Photographics Expert Group)|M
+|6 
+a|.A DGIWG WMS server shall support the following coordinate reference systems:
+* CRS:84 WGS84 geographic longitude, then latitude, expressed in decimal degrees
+* EPSG:4326 WGS84 geographic latitude, then longitude, expressed in decimal degrees
+* EPSG:3395 World Mercator projection  
+
+.Among the following Coordinate Reference Systems, the service shall support all those which validity zone overlaps data published by the service:
+* UTM projections over WGS84 (north zones)… EPSG:32601 to EPSG:32660
+* UTM projections over WGS84 (south zones)… EPSG:32701 to EPSG:32760
+* UPS projection over WGS84 (north zone)…… EPSG:32661
+* UPS projection over WGS84 (south zone)…… EPSG:32761
+|M
+|7|A DGIWG WMS server shall provide service exceptions in English language.|M
+|8|A DGIWG WMS server shall support all GetCapabilities request parameters.|M
+|9|A DGIWG WMS server shall provide all mandatory and optional service metadata elements.|M
+|10|A DGIWG WMS server shall identify the highest classification level of the content accessible through the WMS service by populating the wms:AccessConstraints element.|M
+|11|A DGIWG WMS server shall include the following information in the abstract element of the service metadata: "This service implements the DGIWG WMS 1.3 profile version 1.0."|M
+|12|A DGIWG WMS server shall provide a minimum keyword list based on the DFDD groups.|M
+|13
+__
+
+ a|
+_____________________________________________________________________
+A DGIWG WMS server shall provide information on the supported styles.
+_____________________________________________________________________
+
+ a|
+_
+M
+_
+
+a|
+__
+14
+__
+
+ a|
+__________________________________________________________________________________________________________________________________________
+A DGIWG WMS server shall always provide at least one style element and that style shall be advertised even if it's only the default style.
+__________________________________________________________________________________________________________________________________________
+
+ a|
+_
+M
+_
+
+a|
+__
+15
+__
+
+ a|
+___________________________________________________________________
+The MaxWidth and MaxHeight shall be greater or equal to 800 pixels.
+___________________________________________________________________
+
+ a|
+_
+M
+_
+
+a|
+__
+16
+__
+
+ a|
+________________________________________________________________________________________________________________________________________
+Each vector data layer's style shall have an associated legend, available as an image in one of the following formats: PNG, GIF or JPEG.
+________________________________________________________________________________________________________________________________________
+
+ a|
+_
+M
+_
+
+a|
+__
+17
+__
+
+ a|
+_________________________________________________________________________
+This legend shall be accessible online at the URL specified by LegendURL.
+_________________________________________________________________________
+
+ a|
+_
+M
+_
+
+a|
+__
+18
+__
+
+ a|
+_______________________________________________________________________________
+A DGIWG WMS server shall provide scale denominators for all layers it provides.
+_______________________________________________________________________________
+
+ a|
+_
+M
+_
+
+a|
+__
+19
+__
+
+ a|
+______________________________________________________________________________________________________
+The <MinScaleDenominator> value shall always be less than or equal to the <MaxScaleDenominator> value.
+______________________________________________________________________________________________________
+
+ a|
+_
+M
+_
+
+a|
+__
+20
+__
+
+ a|
+______________________________________________________________________________________________________________________________________________________________________________
+If the GetCapabilities document identifies support for FeatureListURL then the list of features that are in the particular layer shall be resolvable through the provided URL.
+______________________________________________________________________________________________________________________________________________________________________________
+
+ a|
+_
+C
+_
+
+a|
+__
+21
+__
+
+ a|
+_____________________________________________________________________________________________________________________________________________________________
+If the GetCapabilities document identifies support for DataURL then the underlying data of the particular layer shall be resolvable through the provided URL.
+_____________________________________________________________________________________________________________________________________________________________
+
+ a|
+_
+C
+_
+
+a|
+__
+22
+__
+
+ a|
+_________________________________________________________________________
+A DGIWG WMS server shall provide the XML Attributes according to Table 4.
+_________________________________________________________________________
+
+ a|
+_
+M
+_
+
+a|
+__
+23
+__
+
+ a|
+_______________________________________________________________
+A DGIWG WMS server shall support all GetMap request parameters.
+_______________________________________________________________
+
+ a|
+_
+M
+_
+
+a|
+__
+24
+__
+
+ a|
+______________________________________________
+A DGIWG WMS Service shall support transparency
+______________________________________________
+
+ a|
+_
+M
+_
+
+a|
+__
+25
+__
+
+ a|
+________________________________________________________
+A DGIWG WMS server shall support the INIMAGE EXCEPTIONS.
+________________________________________________________
+
+ a|
+_
+M
+_
+
+a|
+__
+26
+__
+
+ a|
+______________________________________________________
+A DGIWG WMS server shall support the BLANK EXCEPTIONS.
+______________________________________________________
+
+ a|
+_
+M
+_
+
+a|
+__
+27
+__
+
+ a|
+____________________________________________________________________________________________________________________________________________________________
+If a DGIWG WMS server provides multi-dimensional data then it shall: +
+• Support the vertical Elevation and temporal Time request parameters. +
+• Handle data utilized in these parameters in accordance with the "OGC Best Practices for using OGC WMS with Time-Dependent or Elevation-Dependent Data [2]"
+____________________________________________________________________________________________________________________________________________________________
+
+ a|
+_
+C
+_
+
+a|
+__
+28
+__
+
+ a|
+__________________________________________________________________________________________________________________________________________________________________________________________________________
+A DGIWG WMS server that announces available sample dimensions in its service metadata shall resolve the corresponding parameters provided in the GetMap operation for requesting these dimensional values.
+__________________________________________________________________________________________________________________________________________________________________________________________________________
+
+ a|
+_
+M
+_
+
+a|
+__
+29
+__
+
+ a|
+_________________________________________________________________________________________________________________________________________________________________
+A DGIWG WMS server shall support the FEATURE_COUNT parameter to enable the increase of the number of features per layer for which the server returns information.
+_________________________________________________________________________________________________________________________________________________________________
+
+ a|
+_
+M
+_
+
+a|
+__
+30
+__
+
+ a|
+____________________________________________________________________________________________
+A DGIWG WMS server shall support the EXCEPTIONS parameter support of text/xml and text/html.
+____________________________________________________________________________________________
+
+ a|
+_
+M
+_
+
+a|
+__
+31
+__
+
+ a|
+_________________________________________________________________________
+A DGIWG WMS server shall provide a response according to the INFO_Format.
+_________________________________________________________________________
+
+ a|
+_
+M
+_
+
+a|
+__
+32
+__
+
+ a|
+__________________________________________________________________________________________________________________
+A DGIWG WMS server shall return the units of measure for dimensional values returned in a GetFeatureInfo response.
+__________________________________________________________________________________________________________________
+
+ a|
+_
+M
+_
+
+|=========================================================================================================================================================================================================
+
+[[_Ref399233124]]Table 1: DGIWG WMS Profile Normative Server Requirements
