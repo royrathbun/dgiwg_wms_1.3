@@ -1,0 +1,10 @@
+= Document contributor contact points
+
+[cols=",",]
+|===========================================================
+|Person |Organization
+|Stefan Strobel |Strobel Geoinformatics (DEU)
+|Dimitri Sarafinof |Institut Géographique National (FRA)
+|Roy Rathbun |National Geospatial-Intelligence Agency (USA)
+|Paul Lacey |Defence Science and Technology Laboratory (GBR)
+|===========================================================
