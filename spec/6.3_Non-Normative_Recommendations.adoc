@@ -1,4 +1,4 @@
-= 6.3      Non-Normative Recommendations for Implementation
+== 6.3      Non-Normative Recommendations for Implementation
 
 The non-normative requirements requested by this profile are summarized
 in Table 2
