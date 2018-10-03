@@ -1,0 +1,14 @@
+= 6.1  Introduction
+
+A WMS that complies with the DGIWG WMS profile *will*:  +
+    a)  satisfy all requirements stipulated in the OGC WMS 1.3.0 Specification;  +  
+    b)  satisfy all requirements stipulated in this document.  
+
+This profile provides advice on the implementation of the WMS so that tests can be provided to ensure objective compliance to the profile. The profile provides a “Normative Clause” to describe how each component shall be implemented. The Normative Clause defines requirements where mandatory compliance is required for attainment of conformance. However, the profile also includes optional Recommendations which may require a subjective test.
+
+.The following syntax is used to indicate the compliance requirement within the profile:  
+* Mandatory (M) – The requirement shall be implemented  
+* Conditional (C) – Mandatory when “If” statement applies  
+* Optional (O) – Should be implemented  
+
+*Note:* All Requirements and Recommendations presented within this document are the result of information gathered during the DGIWG Nations questionnaire/survey process. Implementers should be aware that certain requirements are unique to a national profile such as the metadata requirements for the US shall include conformance with the NSG Metadata Framework while the DGIWG requires conformance with the DGIWG Metadata Framework. These two metadata profiles have been synchronized to the fullest extent possible.
