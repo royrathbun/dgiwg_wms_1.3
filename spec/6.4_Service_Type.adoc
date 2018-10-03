@@ -1,0 +1,15 @@
+= 6.4.      Service Type
+---------------------------------------
+
+The OGC WMS Implementation Specification defines two conformance
+classes, “Basic WMS” and “Queryable WMS”. A Basic WMS supports the
+GetCapabilities and GetMap operations (requests and responses); a
+Queryable WMS includes all Basic WMS operations and an additional
+GetFeatureInfo operation.
+
+::
+*_Requirement 1: A DGIWG WMS server shall be compliant to the Queryable WMS conformance class._*
+
+According to this requirement a DGIWG WMS server shall support the
+GetCapabilities, GetMap and GetFeatureInfo operations. This requirement
+ensures compatibility with the base standard.
