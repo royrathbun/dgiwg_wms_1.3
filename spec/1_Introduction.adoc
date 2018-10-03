@@ -1,4 +1,4 @@
-= Introduction
+= 1.  Introduction
 
 This document defines specific DGIWG requirements, recommendations and guidelines for implementations of the ISO / OGC Web Map Service standard which is based on ISO 19128:2005 Web Map Server Interface / OpenGIS Web Map Server Implementation Specification 1.3.0.
 
