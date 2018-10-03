@@ -1,0 +1,4 @@
+== 6.5      Basic service elements
+
+The Basic service elements specify aspects of Web Map Server behavior that are independent of particular operations or are common to several
+operations.
