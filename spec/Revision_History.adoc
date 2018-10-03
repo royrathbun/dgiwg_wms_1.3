@@ -1,0 +1,4 @@
+
+= iii. Revision history
+
+This document is a revision of OGC Best Practice 09-102 DGIWG WMS 1.3 Profile and systems requirements for interoperability for use within a military environment (0.9.0). This document is also a revision of NGA.STND.0038_1.0.1_ WMS National System for Geospatial-Intelligence (NSG) OGC Web Map Service 1.3 Interoperability Standard, version 1.0.1, 22 May 2013.
