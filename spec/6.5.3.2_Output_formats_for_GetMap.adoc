@@ -1,0 +1,15 @@
+==== 6.5.3.2.  Output formats for GetMap requests
+
+The response to a GetMap request is either a raster or vector file.
+
+::
+*_Requirement 5: A DGIWG WMS server shall support the following raster formats for the GetMap operation:_*
+* *_image/png (Portable Network Graphics)_*
+* *_image/gif (Graphics Interchange Format)_*
+* *_image/jpeg (Joint Photographics Expert Group)_*
+
+::
+*_Recommendation 1: If a service requires vector based graphical elements output, a DGIWG WMS server should provide image/svg+xml (Scalable Vector Graphics) for the GetMap operation._*
+
+*_NOTE: Users should be aware that only the output formats GIF and PNG
+support transparency._*
