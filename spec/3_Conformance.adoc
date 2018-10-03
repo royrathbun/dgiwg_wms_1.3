@@ -1,0 +1,24 @@
+= 3.  Conformance
+
+This document establishes one conformance class: DGIWG WMS. Annex A lists the conformance abstract tests which shall be exercised on any software artefact claiming to implement a DGIWG WMS profile.
+
+DGIWG WMS Profile conformance class defines requirements for WMS servers allowing distribution of geographic data in a military environment.
+
+[cols=",,,",options="header",]
+|=============================================================================================================
+|*Conformance class name* |*Operation or behavior* |*OGC WMS Conformance Test* |*DGIWG WMS Conformance Test*
+|*WMS Basic* |The server shall implement the Basic WMS conformance class |*A.1 Basic WMS* |
+|*WMS Queryable* |
+The server shall implement the Basic WMS conformance class
+
+DGIWG Requirement 1
+
+ |*A.2 Queryable WMS* |
+|*DGIWG WMS* a|
+*DGIWG requirements*
+
+DGIWG WMS Profile (normative)
+Requirement 2 to Requirement 32
+
+ | |*Annex A*
+|=============================================================================================================
