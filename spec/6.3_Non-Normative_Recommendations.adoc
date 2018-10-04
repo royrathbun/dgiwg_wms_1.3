@@ -36,5 +36,4 @@ should be able to support is at least 20 per second. |O
 |8 |A DGIWG WMS server should be available 99.9% of the time. |O
 |=======================================================================
 
-[[_Toc435456076]][[_Ref399233142]]Table 2: DGIWG WMS Profile
-Non-normative Recommendations for Server Implementation
+Table 2: DGIWG WMS Profile Non-normative Recommendations for Server Implementation
